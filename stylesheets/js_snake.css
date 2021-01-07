@@ -1,0 +1,47 @@
+h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#board {
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background: #3f3;
+  border: 10px solid black;
+}
+
+.segment {
+  position: absolute;
+  background: red;
+}
+
+.food {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: blue;
+}
+
+#scores {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.scoreContainer {
+  display: inline-block;
+  margin: 10px;
+}
+
+.score {
+  background: red;
+  border: orange 6px solid;
+  width: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 0 auto 20px auto;
+}
